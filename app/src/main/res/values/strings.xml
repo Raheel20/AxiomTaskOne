@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Axiom Task1</string>
+    <string name="plus">+</string>
+    <string name="text_zero">0</string>
+    <string name="minus">-</string>
+    <string name="raheel_yaseen">Raheel Yaseen</string>
+    <string name="second_task">Second Task</string>
+    <string name="task_two">Axiom Task 2</string>
+
+    <!--Form Strings-->
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Contact:</string>
+    <string name="roll_no">Roll No:</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="submit">Submit</string>
+   <string name="first_task">First Task</string>
+    <string name="third_task">Third Task</string>
+    <string name="fourth_task">Fourth Task</string>
+    <string name="tasks">Tasks</string>
+    <string name="task_one">Task One</string>
+    <string name="task_three">Task Three</string>
+    <string name="task_four">Task Four</string>
+    <string name="string_next">Next</string>
+    <string name="string_previous">Previous</string>
+    <string name="image_slider">Image Slider</string>
+
+</resources>

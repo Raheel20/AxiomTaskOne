@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="task1axiom.com.axiomtasks">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/androidkotlin"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/androidkotlin"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="taskoneaxiom.com.axiomtasks.MainActivity"
+            android:label="@string/tasks">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="taskoneaxiom.com.axiomtasks.FirstActivity"
+            android:label="@string/task_one" 
+            android:parentActivityName="taskoneaxiom.com.axiomtasks.MainActivity"/>
+        <activity
+            android:name="taskoneaxiom.com.axiomtasks.SecondActivity"
+            android:label="@string/task_two" />
+        
+        <activity 
+            android:name="taskoneaxiom.com.axiomtasks.ThirdActivity" 
+            android:label="@string/task_three"/>
+        
+        <activity android:name="taskoneaxiom.com.axiomtasks.FourthActivity"
+            android:label="@string/task_four">
+            
+        </activity>
+    </application>
+
+</manifest>

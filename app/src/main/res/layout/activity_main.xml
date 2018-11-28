@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="taskoneaxiom.com.axiomtasks.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/button_FirstTask"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/round_button"
+            android:text="@string/first_task"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_SecondTask"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="@string/second_task"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/button_ThirdTask"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/round_button"
+            android:text="@string/third_task"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button_FourthTask"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="@string/fourth_task"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/androidkotlin"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+    </LinearLayout>
+</LinearLayout>
